@@ -734,6 +734,10 @@ button, input, select, textarea {
   right: -0.75rem;
   width: min(45%, 27rem);
 }
+.section--06 .swiper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .section--recruit {
   padding: 6rem 0;
   background-color: #00b2ed;

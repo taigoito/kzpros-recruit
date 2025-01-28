@@ -17,3 +17,22 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// Swiper
+new Swiper('.swiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  centeredSlides: true, // 中央揃えを有効化
+  effect: "coverflow",
+  coverflowEffect: {
+    rotate: 0,   // 回転角度
+    stretch: 30, // 間隔（px単位）
+    depth: 180   // 奥行き（translateをZ方向にpx単位）
+  },
+  slidesPerView: 5 // 表示するスライドの枚数
+});
