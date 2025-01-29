@@ -24,6 +24,16 @@
     right: 0;
   }
 
+  &__movie {
+    img {
+      transition: opacity 0.25s ease-in-out;
+    }
+    
+    a:hover img {
+      opacity: 0.85;
+    }
+  }
+
   &__table {
     @include table();
   }

@@ -17,7 +17,10 @@ window.addEventListener('scroll', () => {
   }
 });
 
+
 // Swiper
+import Swiper from 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.esm.browser.js';
+
 new Swiper('.swiper', {
   loop: true,
   pagination: {
